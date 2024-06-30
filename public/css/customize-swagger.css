@@ -1,0 +1,180 @@
+/* Apply Bootstrap classes to Swagger UI elements */
+.swagger-ui .topbar {
+    background-color: #343a40;
+    border-bottom: 3px solid #007bff;
+}
+
+.swagger-ui .topbar a {
+    color: #ffffff !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.swagger-ui .info {
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.swagger-ui .info h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.swagger-ui .info .description {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.swagger-ui .scheme-container {
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.swagger-ui .opblock {
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.swagger-ui .opblock.opblock-get {
+    border-left: 5px solid #28a745;
+}
+
+.swagger-ui .opblock.opblock-post {
+    border-left: 5px solid #007bff;
+}
+
+.swagger-ui .opblock.opblock-put {
+    border-left: 5px solid #ffc107;
+}
+
+.swagger-ui .opblock.opblock-delete {
+    border-left: 5px solid #dc3545;
+}
+
+.swagger-ui .opblock-summary {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.swagger-ui .opblock-summary-method {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+}
+
+.swagger-ui .opblock-summary-description {
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 0;
+}
+
+.swagger-ui .opblock-body pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+/* Customizing buttons */
+.swagger-ui .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.swagger-ui .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Customizing form inputs */
+.swagger-ui input[type="text"],
+.swagger-ui input[type="email"],
+.swagger-ui input[type="password"],
+.swagger-ui input[type="datetime"],
+.swagger-ui input[type="datetime-local"],
+.swagger-ui input[type="date"],
+.swagger-ui input[type="month"],
+.swagger-ui input[type="time"],
+.swagger-ui input[type="week"],
+.swagger-ui input[type="number"],
+.swagger-ui input[type="search"],
+.swagger-ui input[type="tel"],
+.swagger-ui input[type="url"],
+.swagger-ui select,
+.swagger-ui textarea {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Customizing table */
+.swagger-ui table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.swagger-ui table th,
+.swagger-ui table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+.swagger-ui table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.swagger-ui table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Customizing modal */
+.swagger-ui .modal-content {
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.swagger-ui .modal-header {
+    background-color: #007bff;
+    color: #ffffff;
+    border-bottom: none;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.swagger-ui .modal-body {
+    padding: 20px;
+}
+
+.swagger-ui .modal-footer {
+    border-top: none;
+    padding: 10px;
+}

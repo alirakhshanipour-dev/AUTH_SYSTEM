@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Documentation</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="mb-4">API Documentation</h1>
+      <p>Welcome to our API documentation. Here are the available routes:</p>
+      <ul>
+        <li><strong>Authentication Routes</strong></li>
+        <ul>
+          <li><code>POST /auth/register</code> - Register a new user</li>
+          <li>
+            <code>POST /auth/login</code> - Log in with email and password
+          </li>
+          <li>
+            <code>POST /auth/forgot-password</code> - Request password reset
+          </li>
+          <li>
+            <code>POST /auth/reset-password/:token</code> - Reset password with
+            token
+          </li>
+        </ul>
+        <li><strong>User Routes</strong></li>
+        <ul>
+          <li>
+            <code>GET /user</code> - Get user profile (requires authentication)
+          </li>
+          <li>
+            <code>PUT /user</code> - Update user profile (requires
+            authentication)
+          </li>
+          <li>
+            <code>DELETE /user</code> - Delete user profile (requires
+            authentication)
+          </li>
+        </ul>
+      </ul>
+      <button id="apiButton" class="btn btn-primary mt-4">Go to APIs</button>
+      <p class="mt-4">
+        You can use tools like Postman or curl to test these endpoints.
+      </p>
+      <footer class="mt-5">
+        <p>&copy; 2024 Part Company</p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("apiButton").onclick = function () {
+        window.location.href = "/api-docs";
+      };
+    </script>
+  </body>
+</html>
